@@ -8,72 +8,110 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Your Name</a>
+            <a class="navbar-brand" href="#">Jin Ying Goh</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="index.html">Software Development Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="resume/Jin Ying Goh Resume.pdf">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#resume">Resume</a>
+                        <a class="nav-link" href="https://www.behance.net/jinyinggoh">Design Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.youtube.com/channel/UCT3STZAt5RJ2ielFU7xVT8w">Music Portfolio</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
+    <!-- About Section -->
     <section id="about" class="py-5 mt-5">
       <div class="container">
           <div class="row">
               <div class="col-md-4 text-center">
-                  <img src="profile.jpg" alt="Your Profile Photo" class="img-fluid rounded-circle mb-3" style="max-width: 200px;">
+                  <img src="/img/jin_profile_photo.jpg" alt="Your Profile Photo" class="img-fluid rounded-circle mb-3" style="max-width: 200px;">
               </div>
               <div class="col-md-8">
                   <h2>About Me</h2>
                   <p>
-                    Write your about me here. This can be anything you wish for it to be, be creative.
+                    Currently taking a 15-week intensive Junior Full-Stack Developer Program by Generation Singapore (in partnership with Microsoft and Temasek Polytechnic) where I am acquiring foundational skills in full stack development, including proficiency in HTML, CSS, Javascript, Bootstrap, React, Java, Spring Boot and Mysql. 
                   </p>
                   <p>
-                      <strong>Tech Languages:</strong> HTML, CSS, JavaScript, Python, etc.
+                      <strong>Tech Languages:</strong> HTML, CSS, Javascript, Bootstrap, React, Java, Spring Boot and Mysql
                   </p>
                   <div class="mt-3">
-                      <a href="https://github.com/your-github-username" target="_blank" class="btn btn-primary mr-2">GitHub</a>
-                      <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" class="btn btn-info mr-2">LinkedIn</a>
-                      <a href="mailto:your.email@example.com" class="btn btn-success">Email</a>
+                      <a href="https://github.com/jinygoh" target="_blank" class="btn btn-primary mr-2">GitHub</a>
+                      <a href="https://www.linkedin.com/in/jin-goh-719702148/" target="_blank" class="btn btn-info mr-2">LinkedIn</a>
+                      <a href="mailto:jinying.goh@gmail.com" class="btn btn-success">Email</a>
                   </div>
               </div>
           </div>
       </div>
     </section>
    
+    <!-- Projects Section -->
     <section id="projects" class="py-5 bg-light">
       <div class="container">
           <h2>Projects</h2>
-          <div class="row" id="project-cards">
+          <!-- Project Cards -->
+          <!-- <div class="row" id="project-cards"> -->
+          </div>
+            <div class='col-md-4 mb-4'>
+
+                <div class="card h-100">
+                    <img src="img/studentgenproject.gif" alt="gif showing Find the hat game" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Course Enrolment Program</h5>
+                        <p class="card-text">
+                        Register new students
+                        Enrol students into courses
+                        Check student list & course list
+                        Grade students
+                        Check course average grade</p>
+                        <p class="card-text"><strong>Languages and Tools:</strong> Javascript</p>
+                        <a href="https://github.com/jinygoh/registrationapp" target="_blank" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="card h-100">
+                    <img src="img/findyourhat.gif" alt="gif showing Find the hat game" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Find the hat game</h5>
+                        <p class="card-text">Single player text-based game:<br>
+
+                            -Move your character (*) to reach the hat (^)<br>
+                            -Game over if you step into holes (O), or go out of the field<br>
+                            -A randomized maze is generated in every new game</p>
+                        <p class="card-text"><strong>Languages and Tools:</strong> Javascript</p>
+                        <a href="https://github.com/jinygoh/Find-your-Hat-game" target="_blank" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="card h-100">
+                    <img src="img/colmaracademy.gif" alt="gif showing Repsonsive Web Page" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Repsonsive Web Page</h5>
+                        <p class="card-text">A responsive web page that adapts seamlessly to different screen sizes and devices.</p>
+                        <p class="card-text"><strong>Languages and Tools:</strong> HTML and CSS</p>
+                        <a href="https://github.com/jinygoh/fsd-colmar-academy" target="_blank" class="btn btn-primary">GitHub</a>
+                    </div>
+                </div>
+
           </div>
       </div>
     </section>
     
-    <section id="resume" class="py-5">
-        <div class="container">
-            <h2>Resume</h2>
-            <p>This is where you can add your resume, for now this is just a place holder.</p>
-            <a href="resume.pdf" class="btn btn-primary" download>Download Resume</a>
-        </div>
-    </section>
-    
-    <footer class="bg-dark text-white text-center py-3">
-        <p>© 2024 Your Name. All rights reserved.</p>
-    </footer>
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -82,3 +120,65 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+<!-- Explanation:
+
+HTML Structure (index.html):
+
+Bootstrap: Includes Bootstrap CSS for styling and responsiveness.
+
+Navigation: A Bootstrap Navbar with links to the "About", "Projects", and "Resume" sections. The fixed-top class fixes the navigation bar to the top of the page
+
+About Section: A profile picture and your information with relevant links to your profiles and email.
+
+Projects Section: A section to hold project cards. The JavaScript will dynamically add cards here.
+
+Resume Section: A section that will allow for a place holder for your resume and a link to download.
+
+Footer: A basic footer for copyright information.
+
+JavaScript Inclusion: Links to jQuery, Popper.js, Bootstrap JS, and your script.js.
+
+CSS (style.css):
+
+Basic font styling. Add your own custom styles here.
+
+JavaScript (script.js):
+
+Project Data: An array of project objects. You can expand this list with your own projects.
+
+Dynamic Project Cards:
+
+The DOMContentLoaded event listener ensures that the code runs after the HTML is fully loaded.
+
+The code iterates over each project and generates a Bootstrap Card element.
+
+The HTML for the card is set using template literals (backticks) which includes project data, image, description, tech and github link for each card.
+
+The created cards are added to the 'project-cards' div dynamically.
+
+How to Use:
+
+Save the Files: Save the HTML as index.html, the CSS as style.css, and the JavaScript as script.js in the same directory.
+
+Add Images: Place your profile picture (profile.jpg) and project images (project1.png, project2.png, project3.png and more) in the same directory.
+
+Modify: Update all placeholders and project information (about me, links, project data, etc).
+
+Open in Browser: Open the index.html file in your web browser.
+
+Key Points:
+
+Responsive: Bootstrap will make the website responsive on different screen sizes.
+
+Dynamic: Projects are loaded dynamically from JavaScript, making it easy to update your portfolio.
+
+Customizable: You can easily expand on this foundation to create a unique look and feel for your portfolio.
+
+Navigation: The navigation bar anchors to each specific section, it can be used to create a navigation link at the top of the page.
+
+Resume Section: The resume section is currently just a simple paragraph and link but it can be easily modified to your specific needs.
+
+Footer: The footer is basic and can be expanded to your specific needs.
+
+This code gives you a good starting point for your full stack developer website. Remember to tailor the content and styles to your brand! -->
