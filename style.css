@@ -1,4 +1,29 @@
 body {
-    font-family: sans-serif;
-  }
-  /* Add your custom styles here if needed */
+  font-family: sans-serif;
+  background-color: #000000;
+  color: #fff;
+}
+
+nav {
+  background-color: #000000;
+}
+
+.about{
+  background-color: #1c1c1c;
+}
+
+.card {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #0022ff;
+  border-color: #0022ff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #666;
+  border-color: #666;
+}
