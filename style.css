@@ -31,3 +31,7 @@ nav {
   background-color: #666;
   border-color: #666;
 }
+
+#projects {
+  margin-top: 5px; /* adjust the value to your liking */
+}
