@@ -9,17 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const projectsRow = document.getElementById('projects-row');
     const bodyId = document.body.id;
 
-    if (typeof projects !== 'undefined' && projectsRow && bodyId === 'page-index') {
-        generateProjectCards(projects, projectsRow);
+    if (projectsRow) { // Only proceed if the projects-row container exists on the page
+        if (typeof projects !== 'undefined' && bodyId === 'page-index') {
+            generateProjectCards(projects, projectsRow);
+        } else if (typeof artShopProjects !== 'undefined' && bodyId === 'page-artshops') {
+            generateProjectCards(artShopProjects, projectsRow);
+        } else if (typeof vibeCodedProjects !== 'undefined' && bodyId === 'page-vibecoded') {
+            generateProjectCards(vibeCodedProjects, projectsRow);
+        }
     }
-    // If you want to load different projects on other pages, you would add more conditions here.
-    // For example, you could add specific project data arrays to data.js:
-    // else if (typeof artShopProjects !== 'undefined' && projectsRow && bodyId === 'page-artshops') {
-    //     generateProjectCards(artShopProjects, projectsRow);
-    // }
-    // else if (typeof vibeCodedProjects !== 'undefined' && projectsRow && bodyId === 'page-vibecoded') {
-    //     generateProjectCards(vibeCodedProjects, projectsRow);
-    // }
 });
 
 function generateNavbar(linksData) {

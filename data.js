@@ -76,3 +76,82 @@ const projects = [
         ]
     }
 ];
+
+const artShopProjects = [
+    {
+        image: "img/cutiepeaupies.png",
+        title: "Cutiepeaupies",
+        description: "Cute animals Paintings",
+        links: [
+            { text: "Link", href: "https://www.redbubble.com/people/cutiepeaupies/shop?asc=u&ref=account-nav-dropdown", target: "_blank" }
+        ]
+    },
+    {
+        image: "img/coloringbook.png",
+        title: "Coloring Book",
+        description: "",
+        links: [
+            { text: "Link", href: "https://www.amazon.com/stores/Jin-Ying-Goh/author/B0DYF9KFRC?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=c543b4ea-7cf1-4b1a-bce0-b7783c9b1331", target: "_blank" }
+        ]
+    },
+    {
+        image: "img/llvrhvtrs.png",
+        title: "llvrhvtrs",
+        description: "Graphic Design Streetwear",
+        links: [
+            { text: "Link", href: "https://llvrhvtrs.creator-spring.com/hoodies-sweatshirts", target: "_blank" }
+        ]
+    },
+    {
+        image: "img/vbstrvctivsm.png",
+        title: "vbstrvctivsm",
+        description: "Abstract art",
+        links: [
+            { text: "Link", href: "https://www.redbubble.com/people/vbstrvctivsm/shop?asc=u", target: "_blank" }
+        ]
+    },
+    {
+        image: "img/worldtableau.png",
+        title: "worldtableau",
+        description: "Paintings of countries",
+        links: [
+            { text: "Link", href: "https://www.redbubble.com/people/worldtableau/shop", target: "_blank" }
+        ]
+    },
+    {
+        image: "img/qwotenshield.png",
+        title: "Qwotenshield",
+        description: "Positive quotes posters",
+        links: [
+            { text: "Link", href: "https://www.redbubble.com/people/Qwotenshield/shop?asc=u&ref=account-nav-dropdown", target: "_blank" }
+        ]
+    }
+];
+
+const vibeCodedProjects = [
+    {
+        image: "img/randomChordArpeggioGenerator.png",
+        title: "Random Chord Arpeggio Generator",
+        description: "Still in progress.",
+        links: [
+            { text: "Github Link", href: "https://github.com/jinygoh/randomChordArpeggioGenerator", target: "_blank" },
+            { text: "Live Page Link", href: "https://jinygoh.github.io/randomChordArpeggioGenerator/", target: "_blank" }
+        ]
+    },
+    {
+        image: "img/proceduralChiptuneSongGenerator.png",
+        title: "Procedural Chiptune Song Generator",
+        description: "Still in progress.",
+        links: [
+            { text: "Github Link", href: "https://github.com/jinygoh/procedural-chiptune-generator-v1", target: "_blank" }
+        ]
+    },
+    {
+        image: "img/flappyimpact.png",
+        title: "Flappy Impact Game",
+        description: "Still in progress.<br>Flappy Impact is a dynamic side-scrolling shooter game inspired by Flappy Bird and Space Impact by Nokia, built with Pygame. Navigate your ship through waves of enemies, collect power-ups, and confront challenging bosses!",
+        links: [
+            { text: "Github Link", href: "https://github.com/jinygoh/spaceImpactByNokiaXFlappyBird", target: "_blank" }
+        ]
+    }
+];
