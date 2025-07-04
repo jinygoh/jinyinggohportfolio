@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="page-index">
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
@@ -17,21 +17,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="index.html">Software Development</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="vibecoded.html">Vibe Coded Projects</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="https://www.behance.net/jinyinggoh" target="_blank">Design</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                      <a class="nav-link text-white" href="artshops.html">Art Shops</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="https://www.youtube.com/channel/UCT3STZAt5RJ2ielFU7xVT8w" target="_blank">Music</a>
-                    </li>
+                    <!-- Navigation links will be dynamically inserted here by script.js -->
                 </ul>
             </div>
         </div>
@@ -78,114 +64,8 @@
     <section id="projects" class="py-5">
         <div class="container">
           <h2>Projects</h2>
-          <div class="row justify-content-center">
-            <!-- Cards -->
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/rootsquad.png" alt="gif showing Find the hat game" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">House Plant Social Media App</h5>
-                  <p class="card-text">
-                    A Plant Social Networking Project, a full-stack web application group project designed to connect plant enthusiasts<br>
-                    -secure user authentication, dynamic post creation, a personalized feed, and user interaction capabilities and implemented advanced search features
-                  </p>
-                  <p class="card-text"><strong>Languages:</strong><br>HTML, CSS, Boostrap, Javascript, Java, Spring Boot, Mysql</p>
-                  <p class="card-text"><strong>Tools:</strong><br>Figma, Postman</p>
-                  <a href="img/rootsquadpresentation.pdf" target="_blank" class="btn btn-primary mb-2">Presentation slides</a>
-                  <a href="https://drive.google.com/file/d/1xbGeVrU4Fibndfgqk_xq-5h2Hft6HCVE/view?usp=sharing" target="_blank" class="btn btn-primary mr-2 mb-2">Presentation Video</a>
-                  <a href="https://github.com/Zoooriiel/RootSquad" target="_blank" class="btn btn-primary mb-2">Front End GitHub</a>
-                  <a href="https://github.com/ChanJESG/RootSquad-Backend" target="_blank" class="btn btn-primary mb-2">Back End GitHub</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/reactspotify.gif" alt="gif showing Find the hat game" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Playlist App</h5>
-                  <p class="card-text">
-                    React web application which allows users to;<br>
-                    -search for songs using Spotify API<br>
-                    -create a playlist and save it in user's Spotify account
-                  </p>
-                  <p class="card-text"><strong>Languages:</strong><br>HTML, CSS, Javascript & React</p>
-                  <a href="https://github.com/jinygoh/musicapp_builtwithreact" target="_blank" class="btn btn-primary">GitHub</a>
-                  <a href="https://absorbing-library.surge.sh/" target="_blank" class="btn btn-primary">Live Site</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/studentgenproject.gif" alt="gif showing Find the hat game" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Course Enrolment Program</h5>
-                  <p class="card-text">
-                    -Register new students<br>
-                    -Enrol students into courses<br>
-                    -Check student list & course list<br>
-                    -Grade students<br>
-                    -Check course average grade</p>
-                  <p class="card-text"><strong>Languages:</strong><br>Java</p>
-                  <a href="https://github.com/jinygoh/registrationapp" target="_blank" class="btn btn-primary">GitHub</a>
-                </div>
-              </div>
-            </div>      
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/findyourhat.gif" alt="gif showing Find the hat game" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Find your hat game</h5>
-                  <p class="card-text">Single player text-based game:<br>
-      
-                      -Move your character (*) to reach the hat (^)<br>
-                      -Game over if you step into holes (O), or go out of the field<br>
-                      -A randomized maze is generated in every new game</p>
-                  <p class="card-text"><strong>Languages:</strong><br> Javascript</p>
-                  <a href="https://github.com/jinygoh/findyourhatgame_builtwithjavascript" target="_blank" class="btn btn-primary">GitHub</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/employeemanagementsystem.png" alt="image showing Employee Management System" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Employee Management System</h5>
-                  <p class="card-text">
-                    An Employee Management System in terminal
-                  <p class="card-text"><strong>Languages:</strong><br>Python</p>
-                  <a href="https://github.com/jinygoh/terminalemployeemanagementsystem_builtwithpythonoop" target="_blank" class="btn btn-primary">GitHub</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/booklibrary.png" alt="image showing mysql physical diagram" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Book Library App</h5>
-                  <p class="card-text">A book library app done in Mysql</p>
-                  <p class="card-text"><strong>Languages:</strong><br>SQL and MySQL</p>
-                  <a href="https://github.com/jinygoh/booklibrary_builtwithmysql/tree/main" target="_blank" class="btn btn-primary">GitHub</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/colmaracademy.gif" alt="gif showing Repsonsive Web Page" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Responsive Web Page</h5>
-                  <p class="card-text">A responsive web page that adapts seamlessly to different screen sizes and devices.</p>
-                  <p class="card-text"><strong>Languages:</strong><br>HTML & CSS</p>
-                  <a href="https://github.com/jinygoh/repsonsivewebpage_colmaracademy_htmlcss" target="_blank" class="btn btn-primary">GitHub</a>
-                </div>
-              </div>
-            </div>
-
+          <div class="row justify-content-center" id="projects-row">
+            <!-- Project cards will be dynamically inserted here by script.js -->
           </div>
         </div>
       </section>
@@ -193,6 +73,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
