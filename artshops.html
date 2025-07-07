@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="page-artshops">
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
@@ -17,21 +17,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="index.html">Software Development</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="vibecoded.html">Vibe Coded Projects</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="https://www.behance.net/jinyinggoh" target="_blank">Design</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                      <a class="nav-link text-white" href="artshops.html">Art Shops</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link text-white" href="https://www.youtube.com/channel/UCT3STZAt5RJ2ielFU7xVT8w" target="_blank">Music</a>
-                    </li>
+                    <!-- Navigation links will be dynamically inserted here by script.js -->
                 </ul>
             </div>
         </div>
@@ -41,87 +27,8 @@
     <section id="projects" class="py-5">
         <div class="container">
           <h2>Art & Graphic Design Shops</h2>
-          <div class="row justify-content-center">
-
-            <!-- Cards -->
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/cutiepeaupies.png" alt="gif showing Find the hat game" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Cutiepeaupies</h5>
-                  <p class="card-text">
-                    Cute animals Paintings
-                  </p>               
-                  <a href="https://www.redbubble.com/people/cutiepeaupies/shop?asc=u&ref=account-nav-dropdown" target="_blank" class="btn btn-primary mb-2">Link</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/coloringbook.png" alt="Image showing coloring book" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Coloring Book</h5>
-                  <p class="card-text">
-                    
-                  </p>               
-                  <a href="https://www.amazon.com/stores/Jin-Ying-Goh/author/B0DYF9KFRC?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=c543b4ea-7cf1-4b1a-bce0-b7783c9b1331" target="_blank" class="btn btn-primary mb-2">Link</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/llvrhvtrs.png" alt="Image showing Graphic Design Streetwear online store" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">llvrhvtrs</h5>
-                  <p class="card-text">
-                    Graphic Design Streetwear
-                  </p>               
-                  <a href="https://llvrhvtrs.creator-spring.com/hoodies-sweatshirts" target="_blank" class="btn btn-primary mb-2">Link</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/vbstrvctivsm.png" alt="Image showing Abstract art online store" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">vbstrvctivsm</h5>
-                  <p class="card-text">
-                    Abstract art
-                  </p>               
-                  <a href="https://www.redbubble.com/people/vbstrvctivsm/shop?asc=u" target="_blank" class="btn btn-primary mb-2">Link</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/worldtableau.png" alt="Image showing online store for Paintings of countries" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">worldtableau</h5>
-                  <p class="card-text">
-                    Paintings of countries
-                  </p>               
-                  <a href="https://www.redbubble.com/people/worldtableau/shop" target="_blank" class="btn btn-primary mb-2">Link</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <img src="img/qwotenshield.png" alt="Image showing online store for Positive quotes posters" class="card-img-top">
-                <div class="card-body">
-                  <h5 class="card-title">Qwotenshield</h5>
-                  <p class="card-text">
-                    Positive quotes posters
-                  </p>               
-                  <a href="https://www.redbubble.com/people/Qwotenshield/shop?asc=u&ref=account-nav-dropdown" target="_blank" class="btn btn-primary mb-2">Link</a>
-                </div>
-              </div>
-            </div>
-
+          <div class="row justify-content-center" id="projects-row">
+            <!-- Art Shop project cards will be dynamically inserted here by script.js -->
           </div>
         </div>
       </section>
@@ -129,6 +36,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
