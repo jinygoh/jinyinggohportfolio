@@ -79,9 +79,18 @@ const projects = [
 
 const vibeCodedProjects = [
     {
-        image: "img/procedural-drum-pattern-generator.png",
-        title: "Procedural Drum PatternGenerator",
+        image: "img/deepBreathingExercisesApp.png",
+        title: "Deep Breathing Exercises App",
         description: "",
+        links: [
+            { text: "Github Link", href: "https://github.com/jinygoh/deepBreathingExercisesApp", target: "_blank" },
+            { text: "Live Page Link", href: "https://jinygoh.github.io/deepBreathingExercisesApp/", target: "_blank" }
+        ]
+    },
+    {
+        image: "img/procedural-drum-pattern-generator.png",
+        title: "Procedural Drum Pattern Generator",
+        description: "This web application helps musicians spark creativity by generating drum patterns inspired by a variety of music genres.<br>Upcoming improvements: Getting the export for MIDI and WAV to work.",
         links: [
             { text: "Github Link", href: "https://github.com/jinygoh/procedural-drum-pattern-generator", target: "_blank" },
             { text: "Live Page Link", href: "https://jinygoh.github.io/procedural-drum-pattern-generator/", target: "_blank" }
