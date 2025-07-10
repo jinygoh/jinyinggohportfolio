@@ -97,6 +97,15 @@ const vibeCodedProjects = [
         ]
     },
     {
+        image: "img/color-palette-generator.png",
+        title: "Color Palette Generator",
+        description: "",
+        links: [
+            { text: "Github Link", href: "https://github.com/jinygoh/color-palette-generator", target: "_blank" },
+            { text: "Live Page Link", href: "https://jinygoh.github.io/color-palette-generator/", target: "_blank" }
+        ]
+    },
+    {
         image: "img/procedural-pixel-scenery-generator.png",
         title: "Procedural Pixel Scenery Generator",
         description: "",
