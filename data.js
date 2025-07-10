@@ -97,6 +97,15 @@ const vibeCodedProjects = [
         ]
     },
     {
+        image: "img/procedural-pixel-scenery-generator.png",
+        title: "Procedural Pixel Scenery Generator",
+        description: "",
+        links: [
+            { text: "Github Link", href: "https://github.com/jinygoh/procedural-pixel-scenery-generator", target: "_blank" },
+            { text: "Live Page Link", href: "https://jinygoh.github.io/procedural-pixel-scenery-generator/", target: "_blank" }
+        ]
+    },
+    {
         image: "img/randomChordArpeggioGenerator.png",
         title: "Random Chord Arpeggio Generator",
         description: "Still in progress.",
