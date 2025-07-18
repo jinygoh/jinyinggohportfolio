@@ -140,7 +140,7 @@ const vibeCodedGames = [
         title: "Flappy Impact Game",
         description: "Still in progress.<br>Flappy Impact is a dynamic side-scrolling shooter game inspired by Flappy Bird and Space Impact by Nokia, built with Pygame. Navigate your ship through waves of enemies, collect power-ups, and confront challenging bosses!",
         links: [
-            { text: "Github Link", href: "https://github.com/jinygoh/spaceImpactByNokiaXFlappyBird", target: "_blank" }
+            { text: "Github Link", href: "https://github.com/jinygoh/spaceImpactByNokiaXFlappyBird", target: "_blank" },
             { text: "Live Page Link", href: "https://jinygoh.github.io/spaceImpactByNokiaXFlappyBird/", target: "_blank" }
         ]
     }
