@@ -136,14 +136,24 @@ const vibeCodedApps = [
 
 const vibeCodedGames = [
     {
+        image: "img/flappySpaceships2Player.png",
+        title: "Flappy Spaceships 2-Player",
+        description: "Flappy Spaceships 2-Player is a fast-paced, two-player aerial combat game. You control pixelated spaceships, battling each other while navigating a field of asteroids and collecting power-ups to gain an advantage. The objective is to deplete the opponent's health and be the last ship flying.",
+        links: [
+            { text: "Github Link", href: "https://github.com/jinygoh/flappySpaceships2Player", target: "_blank" },
+            { text: "Live Page Link", href: "https://jinygoh.github.io/flappySpaceships2Player/", target: "_blank" }
+        ]
+    },
+    {
         image: "img/flappyimpact.png",
         title: "Flappy Impact Game",
-        description: "Still in progress.<br>Flappy Impact is a dynamic side-scrolling shooter game inspired by Flappy Bird and Space Impact by Nokia, built with Pygame. Navigate your ship through waves of enemies, collect power-ups, and confront challenging bosses!",
+        description: "Flappy Impact is a dynamic side-scrolling shooter game inspired by Flappy Bird and Space Impact by Nokia, built with Pygame. Navigate your ship through waves of enemies, collect power-ups, and confront challenging bosses!",
         links: [
             { text: "Github Link", href: "https://github.com/jinygoh/spaceImpactByNokiaXFlappyBird", target: "_blank" },
             { text: "Live Page Link", href: "https://jinygoh.github.io/spaceImpactByNokiaXFlappyBird/", target: "_blank" }
         ]
-    }
+    },
+    
 ];
 
 const artShopProjects = [
