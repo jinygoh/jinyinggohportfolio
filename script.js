@@ -4,26 +4,18 @@ document.addEventListener('DOMContentLoaded', function () {
         generateNavbar(navLinks);
     }
 
+    const projectsRow = document.getElementById('projects-row');
     const bodyId = document.body.id;
 
-    if (bodyId === 'page-vibecoded') {
-        const appsProjectsRow = document.getElementById('apps-projects-row');
-        const gamesProjectsRow = document.getElementById('games-projects-row');
-
-        if (appsProjectsRow && typeof vibeCodedApps !== 'undefined') {
-            generateProjectCards(vibeCodedApps, appsProjectsRow);
-        }
-        if (gamesProjectsRow && typeof vibeCodedGames !== 'undefined') {
-            generateProjectCards(vibeCodedGames, gamesProjectsRow);
-        }
-    } else {
-        const projectsRow = document.getElementById('projects-row');
-        if (projectsRow) {
-            if (typeof projects !== 'undefined' && bodyId === 'page-index') {
-                generateProjectCards(projects, projectsRow);
-            } else if (typeof artShopProjects !== 'undefined' && bodyId === 'page-artshops') {
-                generateProjectCards(artShopProjects, projectsRow);
-            }
+    if (projectsRow) {
+        if (typeof projects !== 'undefined' && bodyId === 'page-index') {
+            generateProjectCards(projects, projectsRow);
+        } else if (typeof artShopProjects !== 'undefined' && bodyId === 'page-artshops') {
+            generateProjectCards(artShopProjects, projectsRow);
+        } else if (typeof vibeCodedApps !== 'undefined' && bodyId === 'page-vibecodedapps') {
+            generateProjectCards(vibeCodedApps, projectsRow);
+        } else if (typeof vibeCodedGames !== 'undefined' && bodyId === 'page-vibecodedgames') {
+            generateProjectCards(vibeCodedGames, projectsRow);
         }
     }
 });

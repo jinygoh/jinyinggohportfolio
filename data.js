@@ -1,6 +1,7 @@
 const navLinks = [
     { text: "Software Development", href: "index.html" },
-    { text: "Vibe Coded Projects", href: "vibecoded.html" },
+    { text: "Vibe Coded Apps", href: "vibecodedapps.html" },
+    { text: "Vibe Coded Games", href: "vibecodedgames.html" },
     { text: "Design", href: "https://www.behance.net/jinyinggoh", target: "_blank" },
     { text: "Art Shops", href: "artshops.html" },
     { text: "Music", href: "https://www.youtube.com/channel/UCT3STZAt5RJ2ielFU7xVT8w", target: "_blank" }
