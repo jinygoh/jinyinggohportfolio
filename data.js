@@ -77,7 +77,7 @@ const projects = [
     }
 ];
 
-const vibeCodedProjects = [
+const vibeCodedApps = [
     {
         image: "img/deepBreathingExercisesApp.png",
         title: "Deep Breathing Exercises App",
@@ -130,7 +130,10 @@ const vibeCodedProjects = [
         links: [
             { text: "Github Link", href: "https://github.com/jinygoh/procedural-chiptune-generator-v1", target: "_blank" }
         ]
-    },
+    }
+];
+
+const vibeCodedGames = [
     {
         image: "img/flappyimpact.png",
         title: "Flappy Impact Game",

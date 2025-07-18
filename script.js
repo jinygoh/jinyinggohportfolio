@@ -1,21 +1,29 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Generate Navbar
-    // Check if navLinks is defined (it should be if data.js is loaded)
     if (typeof navLinks !== 'undefined') {
         generateNavbar(navLinks);
     }
 
-    // Generate Project Cards (only on index.html which has body id 'page-index')
-    const projectsRow = document.getElementById('projects-row');
     const bodyId = document.body.id;
 
-    if (projectsRow) { // Only proceed if the projects-row container exists on the page
-        if (typeof projects !== 'undefined' && bodyId === 'page-index') {
-            generateProjectCards(projects, projectsRow);
-        } else if (typeof artShopProjects !== 'undefined' && bodyId === 'page-artshops') {
-            generateProjectCards(artShopProjects, projectsRow);
-        } else if (typeof vibeCodedProjects !== 'undefined' && bodyId === 'page-vibecoded') {
-            generateProjectCards(vibeCodedProjects, projectsRow);
+    if (bodyId === 'page-vibecoded') {
+        const appsProjectsRow = document.getElementById('apps-projects-row');
+        const gamesProjectsRow = document.getElementById('games-projects-row');
+
+        if (appsProjectsRow && typeof vibeCodedApps !== 'undefined') {
+            generateProjectCards(vibeCodedApps, appsProjectsRow);
+        }
+        if (gamesProjectsRow && typeof vibeCodedGames !== 'undefined') {
+            generateProjectCards(vibeCodedGames, gamesProjectsRow);
+        }
+    } else {
+        const projectsRow = document.getElementById('projects-row');
+        if (projectsRow) {
+            if (typeof projects !== 'undefined' && bodyId === 'page-index') {
+                generateProjectCards(projects, projectsRow);
+            } else if (typeof artShopProjects !== 'undefined' && bodyId === 'page-artshops') {
+                generateProjectCards(artShopProjects, projectsRow);
+            }
         }
     }
 });

@@ -25,13 +25,32 @@
    
     <!-- Vibe Coded Projects Section -->
     <section id="projects" class="py-5">
-        <div class="container">
-          <h2>Vibe Coded Projects</h2>
-          <div class="row justify-content-center" id="projects-row">
-            <!-- Vibe Coded project cards will be dynamically inserted here by script.js -->
+      <div class="container">
+        <h2>Vibe Coded Projects</h2>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" id="vibeCodedTabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="apps-tab" data-toggle="tab" href="#apps" role="tab" aria-controls="apps" aria-selected="true">Vibe Coded Apps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="games-tab" data-toggle="tab" href="#games" role="tab" aria-controls="games" aria-selected="false">Vibe Coded Games</a>
+          </li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content" id="vibeCodedTabContent">
+          <div class="tab-pane fade show active" id="apps" role="tabpanel" aria-labelledby="apps-tab">
+            <div class="row justify-content-center" id="apps-projects-row">
+              <!-- Vibe Coded Apps project cards will be dynamically inserted here -->
+            </div>
+          </div>
+          <div class="tab-pane fade" id="games" role="tabpanel" aria-labelledby="games-tab">
+            <div class="row justify-content-center" id="games-projects-row">
+              <!-- Vibe Coded Games project cards will be dynamically inserted here -->
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
