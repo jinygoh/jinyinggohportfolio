@@ -1,21 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Generate Navbar
-    // Check if navLinks is defined (it should be if data.js is loaded)
     if (typeof navLinks !== 'undefined') {
         generateNavbar(navLinks);
     }
 
-    // Generate Project Cards (only on index.html which has body id 'page-index')
     const projectsRow = document.getElementById('projects-row');
     const bodyId = document.body.id;
 
-    if (projectsRow) { // Only proceed if the projects-row container exists on the page
+    if (projectsRow) {
         if (typeof projects !== 'undefined' && bodyId === 'page-index') {
             generateProjectCards(projects, projectsRow);
         } else if (typeof artShopProjects !== 'undefined' && bodyId === 'page-artshops') {
             generateProjectCards(artShopProjects, projectsRow);
-        } else if (typeof vibeCodedProjects !== 'undefined' && bodyId === 'page-vibecoded') {
-            generateProjectCards(vibeCodedProjects, projectsRow);
+        } else if (typeof vibeCodedApps !== 'undefined' && bodyId === 'page-vibecodedapps') {
+            generateProjectCards(vibeCodedApps, projectsRow);
+        } else if (typeof vibeCodedGames !== 'undefined' && bodyId === 'page-vibecodedgames') {
+            generateProjectCards(vibeCodedGames, projectsRow);
         }
     }
 });
