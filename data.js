@@ -9,10 +9,20 @@ const navLinks = [
 
 const projects = [
     {
+        image: "img/libraryapp.png",
+        title: "Library App",
+        description: "Silent Library is a full stack web-based application for managing a library's collection of books and their members. It provides a simple and intuitive interface for both library staff and members to interact with the library's resources.",
+        languages: "HTML, CSS, Boostrap, Python, Django, SQL, Mysql",
+        links: [
+            
+            { text: "GitHub", href: "https://github.com/jinygoh/libraryapp_builtWithDjango/tree/add-comments-and-documentation", target: "_blank" }
+        ]
+    },
+    {
         image: "img/rootsquad.png",
         title: "House Plant Social Media App",
         description: "A Plant Social Networking Project, a full-stack web application group project designed to connect plant enthusiasts<br>-secure user authentication, dynamic post creation, a personalized feed, and user interaction capabilities and implemented advanced search features",
-        languages: "HTML, CSS, Boostrap, Javascript, Java, Spring Boot, Mysql",
+        languages: "HTML, CSS, Boostrap, Javascript, Java, Spring Boot, SQL, Mysql",
         tools: "Figma, Postman",
         links: [
             { text: "Presentation slides", href: "img/rootsquadpresentation.pdf", target: "_blank" },
