@@ -146,6 +146,15 @@ const vibeCodedApps = [
 
 const vibeCodedGames = [
     {
+        image: "img/copingCardsGame.png",
+        title: "Coping Cards Game",
+        description: "Coping Cards is a game that helps you practice your coping skills. On each turn, a player will draw a card with a difficult situation. All players will then share how they would cope with the situation. The players will then vote on whose coping mechanism was the best, and the winner of the round gets a point. The first player to 10 points wins!",
+        links: [
+            { text: "Github Link", href: "https://github.com/jinygoh/coping-cards-game", target: "_blank" },
+            { text: "Live Page Link", href: "https://jinygoh.github.io/coping-cards-game/", target: "_blank" }
+        ]
+    },
+    {
         image: "img/flappySpaceships2Player.png",
         title: "Flappy Spaceships 2-Player",
         description: "Flappy Spaceships 2-Player is a fast-paced, two-player aerial combat game. You control pixelated spaceships, battling each other while navigating a field of asteroids and collecting power-ups to gain an advantage. The objective is to deplete the opponent's health and be the last ship flying.",
