@@ -141,6 +141,15 @@ const vibeCodedApps = [
         links: [
             { text: "Github Link", href: "https://github.com/jinygoh/procedural-chiptune-generator-v1", target: "_blank" }
         ]
+    },
+        {
+        image: "img/deepConversationCards.png",
+        title: "Deep Conversation Cards",
+        description: "Deep Conversation Cards is a deck of cards with deep conversation topics for 2 strangers/friends/family to get to know each other on a very deep level to skip the small talk.",
+        links: [
+            { text: "Github Link", href: "https://github.com/jinygoh/deepConversationCards", target: "_blank" },
+            { text: "Live Page Link", href: "https://jinygoh.github.io/deepConversationCards/", target: "_blank" }
+        ]
     }
 ];
 
