@@ -9,6 +9,16 @@ const navLinks = [
 
 const projects = [
     {
+        image: "img/volunteerManagementApp.png",
+        title: "Volunteer Management App",
+        description: "This Volunteer Management App is a full stack web-based application made using React in the front end and Django in the back end.",
+        languages: "React, Django, HTML, CSS, Boostrap, Javascript, Python, SQL, Mysql",
+        links: [
+            
+            { text: "GitHub", href: "https://github.com/jinygoh/volunteerManagementApp_builtWithDjangoAndHubspotCRM", target: "_blank" }
+        ]
+    },
+    {
         image: "img/libraryapp.png",
         title: "Library App",
         description: "Silent Library is a full stack web-based application for managing a library's collection of books and their members. It provides a simple and intuitive interface for both library staff and members to interact with the library's resources.",
