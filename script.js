@@ -78,7 +78,7 @@ function generateProjectCards(projectsData, containerElement) {
         if (project.languages) {
             const languages = document.createElement('p');
             languages.className = 'card-text';
-            languages.innerHTML = `<strong>Languages:</strong><br>${project.languages}`;
+            languages.innerHTML = `<strong>Tech Stack:</strong><br>${project.languages}`;
             cardBody.appendChild(languages);
         }
 
