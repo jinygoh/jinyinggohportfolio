@@ -8,6 +8,17 @@ const navLinks = [
 ];
 
 const projects = [
+    
+    {
+        image: "img/eCommerceAppWithAIIntegration.png",
+        title: "E-Commerce App With AI Integration",
+        description: "This project is a full-stack e-commerce application featuring a React frontend, a Django backend, and an AI-powered shopping assistant using the Gemini API. The 5 AI features are Smart Search, AI-Powered Recommendations, Dynamic Product Descriptions, AI Review Summary and Shopping Assistant Chatbot, ",
+        languages: "React, Django, HTML, CSS, Boostrap, Javascript, Python, SQL, Mysql",
+        links: [
+            
+            { text: "GitHub", href: "https://github.com/jinygoh/eCommerceAppWithAIIntegration3/tree/fix-ai-issue", target: "_blank" }
+        ]
+    },
     {
         image: "img/volunteerManagementApp.png",
         title: "Volunteer Management App",
