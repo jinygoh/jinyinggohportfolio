@@ -140,7 +140,7 @@ const vibeCodedApps = [
     {
         image: "img/ai-music-apps.png",
         title: "AI Apps to help me make songs for my channels",
-        description: "",
+        description: "Building these apps saved me time and effort in making songs",
         links: [
             ]
     },
