@@ -215,10 +215,10 @@ const vibeCodedGames = [
 const artShopProjects = [
     {
         image: "img/cutiepeaupies.png",
-        title: "Cutiepeaupies",
+        title: "Cutiepeupies",
         description: "Cute animals Paintings",
         links: [
-            { text: "Link", href: "https://www.redbubble.com/people/cutiepeaupies/shop?asc=u&ref=account-nav-dropdown", target: "_blank" }
+            { text: "Link", href: "https://www.redbubble.com/people/cutiepeaupies/shop", target: "_blank" }
         ]
     },
     {
@@ -226,7 +226,7 @@ const artShopProjects = [
         title: "Coloring Book",
         description: "",
         links: [
-            { text: "Link", href: "https://www.amazon.com/stores/Jin-Ying-Goh/author/B0DYF9KFRC?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=c543b4ea-7cf1-4b1a-bce0-b7783c9b1331", target: "_blank" }
+            { text: "Link", href: "https://www.amazon.com/Books-jin-coloringbooks/s?rh=n%3A283155%2Cp_27%3Ajin%2Bcoloringbooks", target: "_blank" }
         ]
     },
     {
