@@ -216,17 +216,17 @@ const artShopProjects = [
     {
         image: "img/cutiepeaupies.png",
         title: "Cutiepeupies",
-        description: "Cute animals Paintings",
+        description: "Cute animals Art Shop",
         links: [
             { text: "Link", href: "https://www.redbubble.com/people/cutiepeaupies/shop", target: "_blank" }
         ]
     },
     {
         image: "img/coloringbook.png",
-        title: "Coloring Book",
+        title: "Coloring Books",
         description: "",
         links: [
-            { text: "Link", href: "https://www.amazon.com/Books-jin-coloringbooks/s?rh=n%3A283155%2Cp_27%3Ajin%2Bcoloringbooks", target: "_blank" }
+            { text: "Link", href: "https://www.amazon.com/stores/author/B0DYF9KFRC/allbooks?_encoding=UTF8&ref_=aufs_ap_ahdr_dsk_ab&pd_rd_w=LlCna&content-id=amzn1.sym.7e190e19-9f6f-4df8-807a-5a7608594741&pf_rd_p=7e190e19-9f6f-4df8-807a-5a7608594741&pf_rd_r=132-2304566-0163159&pd_rd_wg=y3Sk1&pd_rd_r=187dfd27-d3d7-4782-bb67-ab39146edcad&ccs_id=5fa15013-b875-4261-997b-f1cfc73f3620", target: "_blank" }
         ]
     },
     {
